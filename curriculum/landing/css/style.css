@@ -1,9 +1,9 @@
 :root{
-    --color-1: #4acabb;
-    --color-2: #cbe5c0;
-    --color-3: #fcf9c2;
-    --color-4: #edc5bd;
-    --color-5: #84407b;
+    --color-1: #555152;
+    --color-2: #dce9be;
+    --color-3: #efffcd;
+    --color-4: #99173c;
+    --color-5: #2e2633;
 }
 * {
     
@@ -26,7 +26,7 @@ header{
     padding: 0%;
     width: 100%;
     height: 80px;
-    background-color:  var(--color-1);
+    background-image: linear-gradient(90deg, var(--color-1), var(--color-4));
     display:flex;
     font-size: 1.15em;
     flex-direction: row;
@@ -37,7 +37,7 @@ header{
 
 }
 #menu{
-    background-color: var(--color-1);
+    background-image: linear-gradient(90deg, var(--color-1), var(--color-4));
     display:flex;
     flex-direction: row;
     width: 100%;
@@ -78,7 +78,7 @@ a {
   }
   header nav li:hover, a> img:hover{
     background-color:  var(--color-2);
-    border-radius: 10px;
+    border-radius: 50px;
     border-bottom:  var(--color-5);
     
   }
@@ -271,7 +271,7 @@ main section >nav{
  @media screen and (max-width: 1440px) {
 
     *{
-        color:yellow;
+        
         font-size: 25px;
     }
     header  nav  li{
@@ -299,7 +299,7 @@ main section >nav{
     
 
     *{
-        color:red;
+        
         font-size: 20px;
     }
     header{
@@ -331,7 +331,7 @@ main section >nav{
 }
 @media screen and (max-width: 768px) {
     *{
-        color: green;
+        
         font-size: 1em;
     }
     .exp img{
