@@ -1,0 +1,347 @@
+:root{
+    --color-1: #4acabb;
+    --color-2: #cbe5c0;
+    --color-3: #fcf9c2;
+    --color-4: #edc5bd;
+    --color-5: #84407b;
+}
+* {
+    
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color:black;
+    
+   
+  }
+  body{
+    background-color: var(--color-2);
+    margin: 0%;
+  }
+  
+  /* Menu */
+header{
+     position: fixed; 
+    margin: 0% ;
+    padding: 0%;
+    width: 100%;
+    height: 80px;
+    background-color:  var(--color-1);
+    display:flex;
+    font-size: 1.15em;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.10);
+    z-index: 1;
+    border-bottom:  var(--color-5);
+
+}
+#menu{
+    background-color: var(--color-1);
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    text-shadow: 1px 1px 4px  var(--color-2);
+    
+    
+}
+
+  
+ 
+header nav ul{
+    display:flex;
+    flex-direction: row;
+    list-style:  none;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+header nav li {
+    display: flex;
+    padding: .75rem 5rem;
+    padding-top: 0;
+    justify-content: space-between;
+    height: 80%;
+    scale: 90%;
+    
+    
+   
+}
+
+
+a {
+    display: inline;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  header nav li:hover, a> img:hover{
+    background-color:  var(--color-2);
+    border-radius: 10px;
+    border-bottom:  var(--color-5);
+    
+  }
+  
+/* Cuerpo*/
+main{
+   
+    
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: var(--color-2);
+    margin-top: 5%;
+    
+}
+section{
+    justify-content: center;
+    padding: 0 15%;
+       
+}
+#home{
+   
+   
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.Info-Perfil{
+    display: flex;
+    margin-left: 10%;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+    padding: 5%;
+    font-size: 1em;
+    
+  
+}
+
+.Perfil{
+    margin-right: 12%;
+    background-color:  var(--color-3);
+    padding: 2%;
+    
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.10);
+}
+.Perfil > img{
+    width: auto;
+    height: 350px;
+}
+
+#acerca-mi{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column; 
+    
+    background: url("../img/home.jpg") no-repeat center center fixed;
+    background-size: cover;
+      
+    justify-content: center;
+    text-align:justify;
+    align-items: center;
+    
+    
+}
+.contenido-mi{
+    padding: 5%;
+}
+nav > h1{
+    text-align: center;
+    font-size: 1.8em;
+}
+
+
+
+main section >nav{
+    
+    background-color:  var(--color-3);
+    border-bottom: 1px black;
+    opacity: .9;
+    border-radius: 10px;
+    
+}
+
+ #Habilidades{
+    
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style:  none;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
+ }
+ #Habilidades nav{
+    
+    justify-content: space-between;
+    list-style:  none;
+    margin:5%;
+    padding: 2%;
+    width: 300px;
+    height: 250px;
+    border: 25px solid  var(--color-4);
+ }
+ #Habilidades nav ul{
+    list-style:  none;
+    font-size: 1.5em;
+    
+ }
+ 
+
+ #experiencia{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style:  none;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
+ }
+ .lista-exp > nav{
+    justify-content: space-between;
+    list-style:  none;
+    margin: 2%;
+    width: 900px;
+    height: 650px;
+    
+ }
+ .exp img{
+    width: 500px;
+    height: 450px;
+ }
+ .lista-exp > h2{
+    background-color:  var(--color-4);
+    opacity: .9;
+ }
+ footer{
+    background-color:  var(--color-5);
+    height: 150px; 
+ }
+ #contactos{
+    background-color:  var(--color-5);
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+    
+    
+
+ }
+ #contactos > h1{
+    text-shadow: 1px 1px 4px  var(--color-2);
+    font-size: 1.5em;
+ }
+ .redes{
+    background-color:  var(--color-5);
+    opacity: 1;
+    font-size: 3em;
+    justify-content: space-between;
+    text-shadow: 1px 1px 4px black;
+    vertical-align:middle;
+    
+ }
+ fa.brands{
+    margin: 20px;
+ }
+ .division{
+    margin: 5% 5%;
+    margin-bottom: 1%;
+    text-align: left;
+    border-bottom: 5px solid  var(--color-4);
+    
+ }
+ .division > h1{
+    color:  var(--color-4);
+    
+    text-shadow: 1px 1px 4px black;
+    
+
+ }
+ h2{
+    text-shadow: 1px 1px 4px white;
+ }
+
+ @media screen and (max-width: 1440px) {
+
+    *{
+        color:yellow;
+        font-size: 25px;
+    }
+    header  nav  li{
+        padding:0;
+        justify-content:center;
+    }
+    .Info-Perfil{
+        margin-left: 0%;
+    }
+    #Habilidades nav ul{
+        font-size: 20px;
+    }
+    nav > h1 {
+        font-size: 20px;
+    }#Habilidades nav ul{
+        font-size: 1em;
+    }
+    nav > h1 {
+        font-size: 25px;
+    }
+
+ }
+@media screen and (max-width: 1024px) {
+
+    
+
+    *{
+        color:red;
+        font-size: 20px;
+    }
+    header{
+        margin-bottom: 5%;
+    }
+    #home{
+        flex-direction: column;
+        margin-top: 2%;
+    }
+    .Perfil{
+        margin-right: 0;
+        margin-bottom: 4%;
+        flex-direction: column ;
+    }
+    #Habilidades nav ul{
+        font-size: 1em;
+    }
+    nav > h1 {
+        font-size: 1.2em;
+    }
+    .division{
+        margin-top: 10%;
+        font-size: 1.4em;
+    }
+    .lista-exp > nav{
+        width: 700px;
+        height: 650px;
+    }
+}
+@media screen and (max-width: 768px) {
+    *{
+        color: green;
+        font-size: 1em;
+    }
+    .exp img{
+        width: 300px;
+        height: 250px;
+     }
+     .lista-exp > nav{
+        width: 400px;
+        height: 300px;
+     }
+
+
+}
